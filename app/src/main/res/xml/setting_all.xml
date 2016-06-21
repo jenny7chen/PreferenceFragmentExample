@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/setting_section_notification">
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/key_show_notification"
+            android:title="@string/setting_show_notification"/>
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:dependency="@string/key_show_notification"
+            android:key="@string/key_turn_on_vibration"
+            android:title="@string/setting_vibration"/>
+
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/setting_section_others">
+        <Preference
+            android:key="@string/key_clear_data"
+            android:title="@string/setting_clear_data"/>
+        <Preference
+            android:key="@string/key_about"
+            android:title="@string/setting_about"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>
