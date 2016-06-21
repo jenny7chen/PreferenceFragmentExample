@@ -1,3 +1,3 @@
 # PreferenceFragmentExample
 
-a example for using PreferenceFragment
+An example for using PreferenceFragment
